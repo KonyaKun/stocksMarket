@@ -25,3 +25,9 @@ HOLDINGS
 ![Holdings](https://github.com/KonyaKun/stocksMarket/assets/96387083/ef637d14-9504-41c7-9535-7430ebe1c693)
 
 
+COMPANY CARD
+
+![Снимок экрана от 2023-09-17 21-54-22](https://github.com/KonyaKun/stocksMarket/assets/96387083/57b82f5f-1834-4e76-8aaf-39a911fcd2cc)
+
+
+
