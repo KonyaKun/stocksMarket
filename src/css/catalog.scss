@@ -1,0 +1,122 @@
+/* Catalog */
+
+.catalogPage {
+    height: 2000px;
+    min-height: 100vh;
+    min-width: 1600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: grey;
+}
+  
+/* card */
+.top{
+    margin-top: 20px;
+    font-size: 143.75%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+  
+.middle{
+    color: #18181d;
+}
+  
+.bottom{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 100%;
+}
+  
+p{
+    line-height: 30px;
+}
+  
+.card img{
+    width: 100%;
+    height: 100px;
+}
+  
+.card{
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #4E4E50;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #1f1f22;
+    box-sizing: border-box;
+}
+  
+.catalogBtn{
+    background-color: #1e1e1e;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+  
+.catalogBtn:hover{
+    background-color: #646664;
+}
+  
+.catalogBtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.catalog{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 5%;
+    box-sizing: border-box;
+}
+
+.catalogText{
+    padding-top: 50px;
+    font-size: 250%;
+}
+
+.all{
+    width: 100%;
+    height: 65%;
+    position: relative;
+    left: 10%;
+    top: 70px;
+    grid-template-columns: 20% 1fr;
+}
+
+.flip{
+    background-color: #4E4E50;
+    color: rgb(34, 32, 32);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 187.5%;
+    transition: 0.4s;
+}
+
+.active, .flip:hover {
+    background-color: #ccc; 
+}
+
+.panel{
+    padding: 0 18px;
+    display: none;
+    background-color: #4E4E50;
+    overflow: hidden;
+    border-radius: 20px;
+}
+

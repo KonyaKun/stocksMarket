@@ -1,0 +1,62 @@
+/* about */
+
+.holdingsPage{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.holdingsText{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.holdingsTable, th, td{
+    border: 1px solid rgb(170, 164, 164);
+    border-collapse: collapse;
+    height: 60px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.holdings_table_head{
+    color: white;
+    background-color: #1a1a1d;
+}
+
+.sell_hold{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(141, 151, 148);
+    transition: 0.2s;
+}
+
+.sell_hold:hover{
+    background-color: #4E4E50;
+}
+
+.hidden{
+    display: none;
+}
+  
+.pagination{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}

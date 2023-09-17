@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200">
+    <link rel="stylesheet" href="../My project/src/css/styles.scss">
+    <link rel="stylesheet" href="../My project/src/css/aboutCompany.scss">
+    <link rel="stylesheet" href="../My project/src/css/transaction.scss">
+    <link rel="stylesheet" href="../My project/src/css/catalog.scss">
+    <link rel="stylesheet" href="../My project/src/css/holdings.scss">
+    <link rel="stylesheet" href="../My project/src/css/card.scss">
+    <title>Акции</title>
+</head>
+<body>
+        <header class="header">
+                <div class="menu">
+                    <div class="logo">
+                        <a onclick="window.showAboutSite(); return false;"><img src="images/stocks.png" class="icon" width="70" height="70"></a>
+                    </div>
+                    
+                    <div class="support">
+                        <a onclick="window.showAboutCompany(); return false;">О нас</a>
+                        <a onclick="window.showCatalogCompany(); return false;">Акции компании</a>
+                        <a onclick="window.showTransaction(); return false;">Транзакции</a>
+                        <a onclick="window.showHoldings(); return false;">Профиль</a>
+                    </div>
+
+                    <div class="authorization">
+                        <a onclick="window.showRegister(); return false;">Регистрация</a> 
+                        <a onclick="window.showLogin(); return false;">Вход</a>
+                    </div>
+                </div>
+        </header>
+
+        <div class="main">
+
+        </div>
+
+        <footer class="footer">
+            <div class="navigations">
+                <p class="rights">© 2023. All rights are reserved.</p> 
+            </div>
+        </footer>
+    <script type="module" defer src="./src/js/controller.js"></script>
+</body>
+</html>
+
